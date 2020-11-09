@@ -1,6 +1,6 @@
 # Hanium
-2020 한이음 ICT 멘토링 공모전
-마스크 인식 자동문 MIAD: Mask Identification and Automatic Door
+* 2020 한이음 ICT 멘토링 공모전
+* 마스크 인식 자동문 MIAD: Mask Identification and Automatic Door
 
 
 ---
