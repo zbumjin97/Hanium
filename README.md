@@ -27,7 +27,7 @@
 
 ---
 ### 전체 시스템 구성도
-![](https://github.com/zbumjin97/Hanium/blob/main/MIAD_dnn_training.jpg
+![](https://github.com/zbumjin97/Hanium/blob/main/MIAD_dnn_training.jpg)
 ### MIAD HW 구성도
 ### MIAD DNN Training 구성도
 ### MIAD SW 구성도
