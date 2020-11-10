@@ -27,6 +27,19 @@
 
 
 ---
+### nodetest_publisher.c
+* ROS의 발행자 노드
+* NVIDIA JETSON TX2의 YOLO 연산에 따른 마스크 인식 결과값을 Raspberry Pi 3B로 전송하는 역할
+
+### nodetest_subscriber.c
+* ROS의 구독자 노드
+* 발행자 노드로부터 데이터를 수신하면 연속으로 수신하는 값들을 묶음으로 처리하여 이후 동작을 수행
+
+## image.c
+* [github.com/pjreddie/darknet](https://github.com/pjreddie/darknet) 에서의 image.c 소스코드를 참조
+* Darknet 개발환경에서 image processing으로 마스크를 인식한 결과를 보여주는 역할을 하며, 마스크 인식률의 연속적인 값을 Circular queue로 처리하여 ROS 통신을 구현하기 위해 원 소스코드로부터 일부 수정
+
+---
 ### 전체 시스템 구성도
 ![](https://github.com/zbumjin97/Hanium/blob/main/MIAD_system.jpg)
 ### MIAD HW 구성도
