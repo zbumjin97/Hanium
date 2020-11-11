@@ -39,7 +39,7 @@
 * [github.com/pjreddie/darknet](https://github.com/pjreddie/darknet) 에서의 image.c 소스코드를 참조
 * 기본적인 역할은 Darknet 개발환경에서 image processing으로 마스크를 인식한 결과를 화면상에 출력
 * 마스크 인식률의 연속적인 값을 임시로 저장하고 업데이트하기 위해 Circular queue로 처리하기 위한 자료구조를 구현
-* Circular queue로부터 데이터를 순차적으로 ROS 환경에서 송신하기 위해
+* Circular queue로부터 데이터를 순차적으로 ROS 환경에서 송신하기 위해 파일 처리를 활용
 * NVIDIA JETSON TX2 개발 보드에서 딥러닝을 구현하기 위한 Darknet 개발환경은 모두 [여기](https://github.com/pjreddie/darknet)를 인용함
 
 
@@ -52,3 +52,13 @@
 ![](https://github.com/zbumjin97/Hanium/blob/main/MIAD_dnn_training.jpg)
 ### MIAD SW 구성도
 ![](https://github.com/zbumjin97/Hanium/blob/main/MIAD_sw.jpg)
+
+
+---
+### MIAD 3D 모델링
+
+### MIAD 마스크 레이블 인식 및 ROS 송수신
+
+### MIAD 웹캠 디스플레이
+
+### [MIAD 구현 영상](https://www.youtube.com/watch?v=zmJI079PcNQ)
