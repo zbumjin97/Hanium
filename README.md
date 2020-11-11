@@ -58,7 +58,7 @@
 ### MIAD 3D 모델링
 ![](https://github.com/zbumjin97/Hanium/blob/main/MIAD_3Dmodel.jpg)
 ### MIAD 마스크 레이블 인식 및 ROS 송수신
-![](https://github.com/zbumjin97/Hanium/blob/main/MIAD_classification.jpg)
+![](https://github.com/zbumjin97/Hanium/blob/main/MIAD_classification.png)
 ### MIAD 웹캠 디스플레이
-![](https://github.com/zbumjin97/Hanium/blob/main/MIAD_display.jpg)
+![](https://github.com/zbumjin97/Hanium/blob/main/MIAD_display.png)
 ### [MIAD 구현 영상](https://www.youtube.com/watch?v=zmJI079PcNQ)
