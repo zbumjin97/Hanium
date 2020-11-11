@@ -37,7 +37,10 @@
 
 ### image.c
 * [github.com/pjreddie/darknet](https://github.com/pjreddie/darknet) 에서의 image.c 소스코드를 참조
-* Darknet 개발환경에서 image processing으로 마스크를 인식한 결과를 보여주는 역할을 하며, 마스크 인식률의 연속적인 값을 Circular queue로 처리하여 ROS 통신을 구현하기 위해 원 소스코드로부터 일부 수정
+* 기본적인 역할은 Darknet 개발환경에서 image processing으로 마스크를 인식한 결과를 화면상에 출력
+* 마스크 인식률의 연속적인 값을 임시로 저장하고 업데이트하기 위해 Circular queue로 처리하기 위한 자료구조를 구현
+* Circular queue로부터 데이터를 순차적으로 ROS 환경에서 송신하기 위해
+* NVIDIA JETSON TX2 개발 보드에서 딥러닝을 구현하기 위한 Darknet 개발환경은 모두 [여기](https://github.com/pjreddie/darknet)를 인용함
 
 
 ---
